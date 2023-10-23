@@ -7,7 +7,7 @@
 }
 :root {
   --text-color: white;
-  --bg-url: url(./assets/bg-mobile.jpg);
+  --bg-url:  rgb(63,82,251) linear-gradient(9deg, rgba(63,82,251,1) 12%, rgba(45,44,52,1) 73%);
   --stroke-color: rgb(255, 255, 255, 0.5);
   --surface-color: rgb(255, 255, 255, 0.05);
   --surface-color-hover:rgb(255, 255, 255, 0.02);
@@ -16,7 +16,7 @@
 }
 .light {
   --text-color: black;
-  --bg-url: url(./assets/bg-mobile-light.jpg);
+  --bg-url: rgb(63,82,251) linear-gradient(288deg, rgba(63,82,251,1) 12%, rgba(212,211,221,1) 73%);
   --stroke-color: rgb(0, 0, 0, 0.5);
   --surface-color: rgb(0, 0, 0, 0.05);
   --surface-color-hover: rgb(0, 0, 0, 0.02);
@@ -77,7 +77,7 @@ body * {
     left: 0;
     z-index: 1;
     transform: translateY(-50%);
-    animation: silde-back 0.2s;
+    animation: silde-back 0.4s;
 }
 
 #switch button:hover {
@@ -164,11 +164,11 @@ footer {
 
 @media (min-width: 700px){
     :root {
-        --bg-url: url(./assets/bg-desktop.jpg)
+        --bg-url: rgb(63,82,251) linear-gradient(9deg, rgba(63,82,251,1) 12%, rgba(45,44,52,1) 73%);
     }
 
     .light {
-        --bg-url: url(./assets/bg-desktop-light.jpg)
+        --bg-url:  rgb(63,82,251) linear-gradient(288deg, rgba(63,82,251,1) 12%, rgba(212,211,221,1) 73%)
     }
 }
 
